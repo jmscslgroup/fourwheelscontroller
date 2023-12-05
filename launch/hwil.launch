@@ -3,7 +3,7 @@
   <!-- ~~~~~~~~~~~~~~~~~~~~~~~~ -->
   <!-- Controller Launches. fourwheelscontroller control and CBF -->
   <node pkg="fourwheelscontroller" type="fourwheelscontroller" name="fourwheelscontroller" output="screen">
-		<remap from="/cmd_accel" to="/cmd_accel_pre"/>
+		<remap from="/cmd_accel_sim" to="/cmd_accel_pre"/>
 	</node>
 <!-- CBF params -->
   <arg name="description" default="fourwheelscontroller"/>
